@@ -9,4 +9,14 @@
 		color: #FFFFFF;
 		text-align: left;
 	}
+
+	&_reviews {
+		margin-bottom: 60px;
+
+		&-item {
+			font-size: 18px;
+			line-height: 18px;
+			text-align: left;
+		}
+	}
 }
