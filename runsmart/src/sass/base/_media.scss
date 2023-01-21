@@ -283,6 +283,29 @@
 			}
 		}
 	}
+
+	.modal {
+		width: 320px;
+		min-height: 200px;
+
+		&__subtitle {
+			font-size: 18px;
+		}
+
+		&__descr {
+			font-size: 12px;
+		}
+
+		input {
+			font-size: 13px;
+		}
+
+		.button {
+			&_submit {
+				font-size: 15px;
+			}
+		}
+	}
 }
 
 @media (max-width: 576px) {
@@ -401,6 +424,7 @@
 
 		&__social {
 			width: 155px;
+
 			&-item {
 				width: 40px;
 				height: 39px;
