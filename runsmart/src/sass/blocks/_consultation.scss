@@ -9,4 +9,14 @@
 		color: #FFFFFF;
 		margin-top: 8px;
 	}
+
+	.error {
+		border: 1px solid red;
+	}
+
+	label.error {
+		border: none;
+		color: #FFFFFF;
+		font-size: 14px;
+	}
 }
