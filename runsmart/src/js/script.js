@@ -33,7 +33,7 @@ $(document).ready(function () {
 		});
 	};
 
-	toggleSlide('.catalog-item__link');
+	toggleSlide('.catalog-item__more');
 	toggleSlide('.catalog-item__back');
 
 	// Modal
@@ -114,13 +114,19 @@ $(document).ready(function () {
 
 	//Smooth scroll and pageup
 
-	$(window).scroll(function () {
-		if ($(this).scrollTop() > 1000) {
-			$('.pageup').fadeIn();
-		} else {
-			$('.pageup').fadeOut();
-		}
-	});
+	$(window).scroll(function() {
+        if ($(this).scrollTop() > 1600) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
+
+    $("a[href=#up]").click(function(){
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+    });
 
 	new WOW().init();
 });
