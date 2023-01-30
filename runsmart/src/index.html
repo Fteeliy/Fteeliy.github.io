@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pulse</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/slick.css" />
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-	<section class="promo">
+	<section class="promo" id="up">
 		<div class="container">
 			<header class="header">
 				<a href="#" class="header__logo">
@@ -73,7 +74,7 @@
 					</div>
 				</div>
 				<div class="advantages__item">
-					<img src="icons/advantages/heart.png" alt="heart">
+					<img src="icons/advantages/heart.png" alt="heart" class="advantages__icon_animated">
 					<h3 class="title advantages__subheader">Заботимся о здоровье</h3>
 					<div class="advantages__descr">Мы работаем для того,<br> чтобы Ваши занятия спортом шли на пользу
 						Вашему здоровью и были в радость Вам и Вашим близким!</div>
@@ -487,7 +488,7 @@
 		<div class="container">
 			<h2 class="title title_reviews">отзывы клиентов</h2>
 			<div class="reviews__wrapper">
-				<div class="reviews-item">
+				<div class="reviews-item animate__animated animate__fadeInUp wow data-wow-duration="2s" data-wow-delay="1s"">
 					<img src="img/reviews/photo_1.png" alt="photo" class="reviews-item__img">
 					<div class="reviews-item__content">
 						<h3 class="title title_reviews-item">Ирина Иванченко</h3>
@@ -500,7 +501,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="reviews-item">
+				<div class="reviews-item animate__animated animate__fadeInUp wow data-wow-duration="2s" data-wow-delay="1s"">
 					<img src="img/reviews/photo_2.png" alt="photo" class="reviews-item__img">
 					<div class="reviews-item__content">
 						<h3 class="title title_reviews-item">Иван Сёмочкин</h3>
@@ -515,7 +516,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="reviews-item">
+				<div class="reviews-item animate__animated animate__fadeInUp wow data-wow-duration="2s" data-wow-delay="1s"">
 					<img src="img/reviews/photo_3.png" alt="photo" class="reviews-item__img">
 					<div class="reviews-item__content">
 						<h3 class="title title_reviews-item">Юлия Дашкина</h3>
@@ -599,11 +600,16 @@
 	</div>
 	<!-- /.overlay -->
 
+	<a href="#up" class="pageup">
+		<img src="icons/circle-chevron-up-solid.svg" alt="up">
+	</a>
+
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 

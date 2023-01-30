@@ -93,7 +93,7 @@ $(document).ready(function () {
 
 	$('input[name=phone]').mask("+7 (999) 999-99-99");
 
-	$('form').submit(function(e) {
+	$('form').submit(function (e) {
 		e.preventDefault();
 		if (!$(this).valid()) {
 			return;
@@ -111,4 +111,16 @@ $(document).ready(function () {
 		});
 		return false;
 	});
+
+	//Smooth scroll and pageup
+
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 1000) {
+			$('.pageup').fadeIn();
+		} else {
+			$('.pageup').fadeOut();
+		}
+	});
+
+	new WOW().init();
 });
