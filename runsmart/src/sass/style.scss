@@ -1,3 +1,8 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+@import 'libs/animations.min';
+
 @import 'base/variables';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -25,5 +30,6 @@ h1, h2, h3, h4, h5, h6 {
 @import 'blocks/footer';
 @import 'blocks/modal';
 @import 'blocks/pageup';
+
 @import 'base/animations.scss';
 @import 'base/media';
