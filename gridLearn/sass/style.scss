@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+.grid-container {
+	padding-top: 82px;
+	padding-left: 82px;
+	display: grid;
+	grid-template-columns: repeat(4, 240px);
+	grid-template-rows: repeat(2, 240px);
+	column-gap: 60px;
+	row-gap: 60px;
+
+	.grid-card {
+		img {
+			display: block;
+			margin-bottom: 15px;
+		}
+
+		&__text {
+			text-align-last: left;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 16px;
+			color: #000000;
+		}
+	}
+}
