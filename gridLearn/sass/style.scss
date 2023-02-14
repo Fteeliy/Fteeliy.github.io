@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
 	box-sizing: border-box;
 }
 
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
 .grid-container {
-	padding-top: 82px;
-	padding-left: 82px;
+	margin: 82px auto 0;
+	width: 1140px;
 	display: grid;
 	grid-template-columns: repeat(4, 240px);
 	grid-template-rows: repeat(2, 240px);
+	grid-auto-rows: 240px;
 	column-gap: 60px;
 	row-gap: 60px;
 
 	.grid-card {
 		img {
+			width: 100%;
 			display: block;
 			margin-bottom: 15px;
 		}
