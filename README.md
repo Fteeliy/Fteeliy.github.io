@@ -2,7 +2,7 @@
 
 * :ballot_box_with_check: - whithout responsive
 * :white_check_mark: - ready
-* :clock3: - on track
+* :clock3: - in progress
 
 #### HTML, CSS(SCSS/SASS), Gulp:
 <a href="https://fteeliy.github.io/Wordpress" target="_blank">WP Intensive</a>:ballot_box_with_check:  (:open_file_folder:Wordpress)<br>
