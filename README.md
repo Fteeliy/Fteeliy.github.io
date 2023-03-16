@@ -11,6 +11,6 @@
 
 #### Trainee web interfaces, using JavaScript:
 
-<a href="https://fteeliy.github.io/healthfood" target="_blank">Health Food</a>:ballot_box_with_check: (:open_file_folder:healthfood)<br>
-<a href="https://fteeliy.github.io/tryDragDrop" target="_blank">Mini Drag&Drop interface</a>:ballot_box_with_check: (:open_file_folder:tryDragDrop)<br>
+<a href="https://fteeliy.github.io/healthfood" target="_blank">Health Food</a>:clock3: (:open_file_folder:healthfood)<br>
+<a href="https://fteeliy.github.io/tryDragDrop" target="_blank">Mini Drag&Drop interface</a>:clock3: (:open_file_folder:tryDragDrop)<br>
 <a href="https://fteeliy.github.io/Food" target="_blank">Tabs, timer, requests...</a>:clock3: (:open_file_folder:Food)<br>
