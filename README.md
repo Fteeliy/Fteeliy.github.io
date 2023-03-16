@@ -5,7 +5,7 @@
 * :clock3: - in progress
 
 #### HTML, CSS(SCSS/SASS), Gulp:
-<a href="https://fteeliy.github.io/Wordpress" target="_blank">WP Intensive</a>:ballot_box_with_check: (:open_file_folder:Fake WordPress Intensive)<br>
+<a href="https://fteeliy.github.io/Wordpress" target="_blank">Fake WordPress Intensive</a>:ballot_box_with_check: (:open_file_folder:WordPress)<br>
 <a href="https://fteeliy.github.io/uber" target="_blank">Uber</a>:white_check_mark: (:open_file_folder:uber)<br>
 <a href="https://fteeliy.github.io/runsmart/src/" target="_blank">Runsmart</a>:white_check_mark:: (:open_file_folder:runsmart/src)<br>
 
