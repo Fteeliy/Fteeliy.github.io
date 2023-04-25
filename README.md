@@ -15,4 +15,4 @@
 <a href="https://fteeliy.github.io/tryDragDrop" target="_blank">Mini Drag&Drop interface</a>:clock3: (:open_file_folder:tryDragDrop)<br>
 <a href="https://fteeliy.github.io/Food" target="_blank">Tabs, timer, requests...</a>:clock3: (:open_file_folder:Food)<br>
 
-<a href="https://fteeliy.github.io/BasketballScore" target="_blank">A basketball score board</a>:clock3: (:open_file_folder:BasketballScore)<br>
+<a href="https://fteeliy.github.io/BasketballScore" target="_blank">A basketball score board</a>:white_check_mark: (:open_file_folder:BasketballScore)<br>
