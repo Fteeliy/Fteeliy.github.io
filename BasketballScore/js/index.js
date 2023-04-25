@@ -1,4 +1,4 @@
-function plusAndReset(whoScore, pannel, reset) {
+function action(whoScore, pannel, reset) {
 	let score = 0;
 
 	pannel.forEach((btn, i) => {
@@ -31,5 +31,5 @@ function plusAndReset(whoScore, pannel, reset) {
 	});
 }
 
-plusAndReset(homeScore, homeBtns, resetHome);
-plusAndReset(guestScore, guestBtns, resetGuest);
+action(homeScore, homeBtns, resetHome);
+action(guestScore, guestBtns, resetGuest);

@@ -39,7 +39,7 @@ h3 {
 	text-align: center;
 }
 
-.score-bg {
+.score {
 	background: #080001;
 	border-radius: 5px;
 	width: 155px;
@@ -87,7 +87,7 @@ h3 {
 		font-size: 32px;
 	}
 
-	.score-bg {
+	.score {
 		width: 125px;
 		height: 100px;
 		font-size: 70px;

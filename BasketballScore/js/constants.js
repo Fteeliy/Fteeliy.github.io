@@ -1,8 +1,8 @@
 const homeNode = document.querySelector('.home');
 const guestNode = document.querySelector('.guest');
 
-const homeScore = homeNode.querySelector('.score-bg');
-const guestScore = guestNode.querySelector('.score-bg');
+const homeScore = homeNode.querySelector('.score');
+const guestScore = guestNode.querySelector('.score');
 
 const homePannel = homeNode.querySelector('.btns-pannel');
 const guestPannel = guestNode.querySelector('.btns-pannel');
