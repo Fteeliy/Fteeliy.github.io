@@ -2,7 +2,7 @@ function plusAndReset(whoScore, pannel, reset) {
 	let score = 0;
 
 	pannel.forEach((btn, i) => {
-		['touchstart', 'click'].forEach(function(k) {
+		['touchend', 'click'].forEach(function(k) {
 			btn.addEventListener(k, function () {
 				if (score < 99) {
 					switch (i) {
