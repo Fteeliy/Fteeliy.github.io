@@ -50,7 +50,7 @@ function forms(formSelector, modalTimerId) {
 			const formData = new FormData(form);
 			const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-			postData('http://localhost:3000/requests', json)
+			postData('https://fteeliy.github.io/Food/db.json/requests', json)
 				.then(data => {
 					console.log(data);
 					showThanksModal(message.success);
