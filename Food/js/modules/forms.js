@@ -1,6 +1,6 @@
 import { modalClose } from "./modal";
 import { modalOpen } from "./modal";
-import {postData} from "./../services/services";
+// import {postData} from "./../services/services";
 
 function forms(formSelector, modalTimerId) {
 	const forms = document.querySelectorAll(formSelector);
@@ -50,14 +50,15 @@ function forms(formSelector, modalTimerId) {
 			const formData = new FormData(form);
 			const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-			postData('https://fteeliy.github.io/Food/db.json/requests', json)
-				.then(data => {
-					console.log(data);
-					showThanksModal(message.success);
-					statusMessage.remove();
-				}).catch(() => {
-					showThanksModal(message.failure);
-				}).finally(() => form.reset());
+			// postData('https://fteeliy.github.io/Food/request', json)
+			// 	.then(data => {
+			// 		console.log(data);
+			// 		showThanksModal(message.success);
+			// 		statusMessage.remove();
+			// 	}).catch(() => {
+			// 		showThanksModal(message.failure);
+			// 	}).finally(() => form.reset());
+			console.log(json);
 		});
 	}
 

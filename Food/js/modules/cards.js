@@ -47,8 +47,11 @@ function cards() {
 		});
 	};
 
-	getResource('https://fteeliy.github.io/Food/db.json/menu')
-		.then(data => createCard(data));
+	getResource('https://fteeliy.github.io/Food/db.json')
+		.then(data => {
+			console.log(data.menu);
+			createCard(data.menu);
+		});
 }
 
 export default cards;
