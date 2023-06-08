@@ -49,7 +49,7 @@ function cards() {
 
 	getResource('https://fteeliy.github.io/Food/db.json')
 		.then(data => {
-			console.log(data.menu);
+			// console.log(data.menu);
 			createCard(data.menu);
 		});
 }
