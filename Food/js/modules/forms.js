@@ -59,6 +59,9 @@ function forms(formSelector, modalTimerId) {
 			// 		showThanksModal(message.failure);
 			// 	}).finally(() => form.reset());
 			console.log(json);
+			showThanksModal(message.success);
+			statusMessage.remove();
+			form.reset();
 		});
 	}
 
