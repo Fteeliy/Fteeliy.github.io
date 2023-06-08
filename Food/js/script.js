@@ -15,7 +15,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
 	modal('[data-modal]', '.modal', modalTimerId);
-	timer('.timer', '2023-06-30');
+	const date = '2023-06-30';
+	timer('.timer', date);
+	const timerHTML = document.querySelector('.promotion__descr .ending');
+	timerHTML.textContent = `Акция закончится ${date.replaceAll('-', '.')} в 00:00`
 	cards();
 	calc();
 	forms('form', modalTimerId);
