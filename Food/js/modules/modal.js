@@ -35,7 +35,6 @@ function modal(triggerSelector, modalSelector, modalTimerId) {
 			modalClose(modalSelector);
 	});
 
-	// Модальное окно после скролла сверху
 	function showModalByScroll() {
 		if (window.pageYOffset + document.documentElement.clientHeight >= document.
 			documentElement.scrollHeight - 1) {

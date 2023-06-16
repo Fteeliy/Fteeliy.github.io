@@ -2,7 +2,7 @@ function timer(id, deadline) {
 
 	function getTimeRemaining(endtime) {
 		let days, hours, minutes, seconds;
-		const t = Date.parse(endtime) - Date.parse(new Date()); // Разница между датами в миллисекундах
+		const t = Date.parse(endtime) - Date.parse(new Date());
 
 		if (t <= 0) {
 			days = 0;
